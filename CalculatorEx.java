@@ -12,20 +12,7 @@ public class CalculatorEx {
       //반복문 언제 참 1,2,3이면 참 4이면 거짓
       System.out.println(cal.toString() + " 참조변수 ");
       
-      flag = true;
-      while(flag) {
-      int menuNumber = cal.MenuScrenn();
-     // System.out.println(menuNumber+"메모 번호 임시 출력하는 것");
-      //menuNumber가 1이면 numberInput()호출 2이면 operationInput()
-      //3이면 calcuResult() 4이면 exit()
-      if(menuNumber == 1) {
-    	  cal.numberInput();
-      }else if(menuNumber == 2) {
-    	  cal.operationInput();
-      }else if(menuNumber == 3) {
-    	  cal.calcuResult();
-      }else if(menuNumber == 4 ) {
-    	  cal.exit();
+     
       }else {
     	  System.out.println("번호가 틀렸습니다.");
        } //end if 
